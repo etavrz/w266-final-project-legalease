@@ -37,3 +37,8 @@ Abstractive summarization of US congressional bills utilizing 2-stage summarizat
 * PEGASUS/readability_entail_evaluation - calculate Entailment and Readability metrics on each PEGASUS model against the test set
 
 ### T5
+* T5/summary_manual_eval.ipynb - generate summaries for specific bills using T5
+* T5/T5_test_eval.ipynb - calculate ROUGE and BLEURT metrics on each T5 model against the test set
+* T5/T5.ipynb - fine-tune T5 model using original bill text
+* T5/T5_peft.ipynb - fine-tune T5 model using original bill text and utilizing peft framework 
+
